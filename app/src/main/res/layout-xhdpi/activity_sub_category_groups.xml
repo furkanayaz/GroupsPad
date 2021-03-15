@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubCategoryGroupsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarSubCategoryGroups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewBackSubCategoryGroups"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarSubCategoryGroups"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textViewSubCategoryGroupsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/sofiaprosemiboldaz"
+        android:text="@string/kategori_subcategory"
+        android:textColor="@color/text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarSubCategoryGroups"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBackSubCategoryGroups"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSubCategoryGroupsCategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/sofiaprolightaz"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSubCategoryGroups" />
+
+    <TextView
+        android:id="@+id/textViewSubCategoryGroupsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/sofiaprolightaz"
+        android:text="@string/kategorisi_gruplari_subcategory"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubCategoryGroupsCategoryName"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSubCategoryGroups" />
+
+    <ImageView
+        android:id="@+id/imageViewSubCategoryGroups"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSubCategoryGroupsDescription"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSubCategoryGroups"
+        app:srcCompat="@drawable/pointingdown" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSubCategoryGroups"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubCategoryGroupsCategoryName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

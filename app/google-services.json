@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592051479177",
+    "project_id": "groupspad-playstore",
+    "storage_bucket": "groupspad-playstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592051479177:android:f0420e329a08121663dc58",
+        "android_client_info": {
+          "package_name": "com.furkanayaz.groupspad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592051479177-uju0lle6kd5pmn7n1mq5sou32d5qaig7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2b-aOj6fJ3p-R1OdzVXlE4rwM2TalZT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592051479177-uju0lle6kd5pmn7n1mq5sou32d5qaig7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAgreementActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarUserAgreement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewUserAgreementBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarUserAgreement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbarUserAgreement"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/bu_s_zle_menin_konusu_hizmet_sekt_r_nde_faaliyet_g_steren_groupspad_in_mobil_uygulama_da_mevcut_olan_ve_ileride_kullan_c_ya_sunulacak_t_m_r_n_i_erik_ve_hizmet_e_ili_kin_olarak_furkan_ayaz_n_ve_kullan_c_lar_n_hak_ve_y_k_ml_l_kleri_ile_bu_r_n_ve_hizmetlerden_yararlanma_artlar_n_n_d_zenlemesidir_kullan_c_bu_s_zle_me_h_k_mlerini_kabul_etmekle_mobil_uygulama_i_inde_yer_alan_kullan_ma_yeli_e_ve_hizmetlere_ili_kin_bu_taraf_ndan_a_klanan_ko_ullar_kabul_etmi_olmakta_bu_ko_ullara_uygun_olarak_hareket_edece_ini_taahh_t_etmekte_ve_verece_i_bilgilerin_mobil_uygulama_da_yer_alan_hizmet_lerin_sunulmas_nda_kullan_laca_n_kabul_ve_beyan_etmektedir_useragreement"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarUserAgreement" />
+</androidx.constraintlayout.widget.ConstraintLayout>

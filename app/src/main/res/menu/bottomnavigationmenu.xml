@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/manageaccount"
+        android:title="@string/hesabim_bottom" />
+    <item
+        android:id="@+id/action_categories"
+        android:icon="@drawable/categories"
+        android:title="@string/kategoriler_bottom" />
+    <item
+        android:id="@+id/action_explore"
+        android:icon="@drawable/explore"
+        android:title="@string/kesfet_bottom" />
+    <item
+        android:id="@+id/action_addgroup"
+        android:icon="@drawable/groupadd"
+        android:title="@string/grup_ekle_bottom" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/ayarlar_bottom" />
+</menu>

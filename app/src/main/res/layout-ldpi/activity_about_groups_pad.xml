@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutGroupsPadActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAboutGroupsPad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewAboutGroupsPadBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarAboutGroupsPad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textViewAboutGroupsPad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/groupspad_uygulamas_kullan_c_lar_na_d_nyaca_pop_ler_mesajla_ma_uygulamalar_nda_yelerinin_verdi_i_grup_adresleriyle_grup_kapasitesini_daha_ok_ki_iye_ula_t_rmay_sa_layan_ve_bu_s_reci_kolayla_t_ran_bir_ortamd_r_bunun_yan_nda_kullan_c_lar_n_n_isteklerinin_daha_abuk_ve_daha_kolay_ula_mas_n_sa_layan_bir_hizmet_sunmaktad_r_yelerinin_payla_t_grup_adreslerini_istedi_i_vakit_g_ncellemeyi_ve_hatta_silmeyi_de_sunmaktad_r_2021_y_l_nda_kurulmu_olup_t_m_haklar_sakl_d_r_about"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarAboutGroupsPad" />
+</androidx.constraintlayout.widget.ConstraintLayout>

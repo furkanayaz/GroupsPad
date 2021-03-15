@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewPrivacyPolicy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/gizlilik_politikas_ve_kullan_m_ko_ullar_burada_belirtilen_gizlilik_politikas_ve_kullan_m_ko_ullar_furkan_ayaz_n_google_play_store_da_yay_nlanan_b_t_n_mobil_uygulamalar_i_in_ge_erlidir_bu_uygulamalar_mobil_cihaz_n_za_y_kleyerek_bu_metinde_yer_alan_gizlilik_politikas_n_ve_kullan_m_ko_ullar_n_kabul_etmi_say_l_rs_n_z_bu_ko_ullar_kabul_etmiyorsan_z_bu_uygulamalar_mobil_cihaz_n_za_y_klemeyiniz_uygulamalar_m_zda_girilen_veriler_ifreli_sunucularda_sadece_uygulama_y_neticisinin_g_rebilece_i_ekilde_depolan_r_ve_3_ah_s_yada_kurumlar_ile_payla_lmaz_telefon_kullan_m_izinleri_uygulam_m_zdan_bulunan_k_sayol_arama_i_lemi_i_in_gerekli_olan_izinlerin_taraf_n_zdan_sa_lanm_olmas_gerekir_verilen_bu_izin_sadece_uygulamada_kay_tl_olan_m_terilerinizin_k_sayol_aramlar_nda_kullan_lmaktad_r_ve_m_terilerinize_ait_ki_isel_veriler_sadece_size_zel_veritabnlar_nda_ifreli_olarak_saklan_r_nternet_kullan_m_izinleri_uygulam_m_zdan_verilerin_ifreli_sunuculara_g_nderilebilmesi_i_in_gerekli_olan_izindir_ve_kullan_c_lar_n_bunu_tan_mlamas_gerekir_bu_izinler_telefonunuzdan_iste_iniz_d_nda_bir_bilgiyi_transfer_etmek_i_in_kullan_lmaz_verilen_internet_eri_im_izni_sadece_uygulama_i_ersinde_dolduraca_n_z_formlara_ait_veri_ve_foto_raf_transferi_i_in_kullan_lmaktad_r_kamera_kullan_m_mobil_uygulamalar_m_zda_kamera_kullan_m_sadece_uygulama_i_ersinden_g_ndermek_istedi_iniz_foto_raflar_i_in_kullan_lmaktad_r_kullan_c_bilgisi_d_nda_kullan_m_s_z_konusu_de_ildir_mobil_uygulamada_ekilen_foto_raflar_kullan_c_ya_ait_ifreli_ortamda_saklan_r_ve_sadece_kendisinin_ve_ba_l_oldu_u_kurumun_eri_imine_a_kt_r_foto_raflar_3_ah_s_yada_kurumlar_ile_kullan_c_bilgisi_d_nda_payla_lmaz_son_g_ncelleme_tarihi_03_03_2021_privacypolicy"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPrivacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewPrivacyPolicyBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarPrivacyPolicy"
+        app:layout_constraintStart_toStartOf="@+id/toolbarPrivacyPolicy"
+        app:layout_constraintTop_toTopOf="@+id/toolbarPrivacyPolicy"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
